@@ -279,8 +279,3 @@ hi, too lazy to do discord quests? this is for you, just copy and paste it in ur
     doJob();
 })();
 ```
-
----
-
-### license
-this script is with MIT license, so, u can take the script but uhh it's not my fault if you got your access of doing quests removed, u can't really get banned for using this
