@@ -1,22 +1,3 @@
-hi, too lazy to do discord quests? this is for you, just copy and paste it in ur devtools and let it do the stuff, code is all yours (this script is from someone else but it doesn't work anymore, so I updated it)
-
----
-
-### what this script actually does
-- **detects active quests:** scans ur account for uncompleted tasks
-- **spoof video stuff:** sends video progress timestamps so you don't have to sit through videos
-- **spoofs play tasks:** mocks discord's internal running game store (`RunningGameStore`) so discord thinks ur playing the quest game normally
-- **auto loop:** finishes one quest and jumps to the next one until there isn't any left
-
----
-
-### How to use
-
-1. **accept and select game stuff as desktop** in the quests you want to do
-2. open discord DevTools (`ctrl + shift + I`), if it doesnt work watch a tut on how to enable dev tools
-3. switch to console tab
-4. Copy the code block below, paste it, and press `enter`, if it's the first time you're pasting it, discord won't let you paste the script, so just type `allow pasting` and it should let you paste
-
 ```javascript
 (async () => {
     delete window.$;
